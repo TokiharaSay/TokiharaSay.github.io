@@ -16,15 +16,15 @@
   <meta name="author" content="常原">
   <meta name="keywords" content="">
   
-    <meta name="description" content="教程链接英语配置教程https:&#x2F;&#x2F;dortania.github.io&#x2F;OpenCore-Install-Guide&#x2F;OC文档翻译https:&#x2F;&#x2F;oc.skk.moe&#x2F;OC文档翻译https:&#x2F;&#x2F;blog.xjn819.com&#x2F;post&#x2F;opencore-guide.htmlOC ACPI 部件库https:&#x2F;&#x2F;ocbook.tlhub.cn&#x2F;部件库文件I2C触摸板https:&#x2F;&#x2F;blog.gz">
+    <meta name="description" content="教程链接英语配置教程https:&#x2F;&#x2F;dortania.github.io&#x2F;OpenCore-Install-Guide&#x2F;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hackintosh 实用教程与命令">
 <meta property="og:url" content="http://example.com/2020/12/16/%20Hackintosh%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B%E4%B8%8E%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="常原的部落阁">
-<meta property="og:description" content="教程链接英语配置教程https:&#x2F;&#x2F;dortania.github.io&#x2F;OpenCore-Install-Guide&#x2F;OC文档翻译https:&#x2F;&#x2F;oc.skk.moe&#x2F;OC文档翻译https:&#x2F;&#x2F;blog.xjn819.com&#x2F;post&#x2F;opencore-guide.htmlOC ACPI 部件库https:&#x2F;&#x2F;ocbook.tlhub.cn&#x2F;部件库文件I2C触摸板https:&#x2F;&#x2F;blog.gz">
+<meta property="og:description" content="教程链接英语配置教程https:&#x2F;&#x2F;dortania.github.io&#x2F;OpenCore-Install-Guide&#x2F;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-12-16T04:35:26.000Z">
-<meta property="article:modified_time" content="2022-05-28T07:31:42.337Z">
+<meta property="article:modified_time" content="2022-05-28T07:39:12.553Z">
 <meta property="article:author" content="常原">
 <meta property="article:tag" content="Hackintosh">
 <meta name="twitter:card" content="summary_large_image">
@@ -300,7 +300,9 @@
             
             <div class="markdown-body">
               
-              <h3 id="教程链接"><a href="#教程链接" class="headerlink" title="教程链接"></a>教程链接</h3><p>英语配置教程<br><a target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/">https://dortania.github.io/OpenCore-Install-Guide/</a><br>OC文档翻译<br><a target="_blank" rel="noopener" href="https://oc.skk.moe/">https://oc.skk.moe/</a><br>OC文档翻译<br><a target="_blank" rel="noopener" href="https://blog.xjn819.com/post/opencore-guide.html">https://blog.xjn819.com/post/opencore-guide.html</a><br>OC ACPI 部件库<br><a target="_blank" rel="noopener" href="https://ocbook.tlhub.cn/">https://ocbook.tlhub.cn/</a><br><a target="_blank" rel="noopener" href="https://github.com/daliansky/OC-little">部件库文件</a><br>I2C触摸板<br><a target="_blank" rel="noopener" href="https://blog.gzxiaobai.cn/">https://blog.gzxiaobai.cn/</a><br>电池<br><a target="_blank" rel="noopener" href="https://blog.gzxiaobai.cn/">https://blog.gzxiaobai.cn/</a></p>
+              <h3 id="教程链接"><a href="#教程链接" class="headerlink" title="教程链接"></a>教程链接</h3><p>英语配置教程<br><a target="_blank" rel="noopener" href="https://dortania.github.io/OpenCore-Install-Guide/">https://dortania.github.io/OpenCore-Install-Guide/</a></p>
+<span id="more"></span>
+<p>OC文档翻译<br><a target="_blank" rel="noopener" href="https://oc.skk.moe/">https://oc.skk.moe/</a><br>OC文档翻译<br><a target="_blank" rel="noopener" href="https://blog.xjn819.com/post/opencore-guide.html">https://blog.xjn819.com/post/opencore-guide.html</a><br>OC ACPI 部件库<br><a target="_blank" rel="noopener" href="https://ocbook.tlhub.cn/">https://ocbook.tlhub.cn/</a><br><a target="_blank" rel="noopener" href="https://github.com/daliansky/OC-little">部件库文件</a><br>I2C触摸板<br><a target="_blank" rel="noopener" href="https://blog.gzxiaobai.cn/">https://blog.gzxiaobai.cn/</a><br>电池<br><a target="_blank" rel="noopener" href="https://blog.gzxiaobai.cn/">https://blog.gzxiaobai.cn/</a></p>
 <h3 id="BIOS-推介设定"><a href="#BIOS-推介设定" class="headerlink" title="BIOS 推介设定"></a>BIOS 推介设定</h3><p>禁用</p>
 <ul>
 <li>Secure Boot ~安全启动</li>
@@ -312,29 +314,24 @@
 <h3 id="实用命令"><a href="#实用命令" class="headerlink" title="实用命令"></a>实用命令</h3><p>终端</p>
 <ul>
 <li><p>查看睡眠唤醒日志</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift">log show <span class="hljs-operator">--</span>last 1d <span class="hljs-operator">|</span> grep <span class="hljs-string">&quot;AppleACPIPlatformPower&quot;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">log show --last 1d | grep &quot;AppleACPIPlatformPower&quot;<br></code></pre></td></tr></table></figure>
 </li>
 <li><p>允许任何未知来源</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift">sudo spctl <span class="hljs-operator">--</span>master<span class="hljs-operator">-</span>disable<br></code></pre></td></tr></table></figure></li>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">sudo spctl --master-disable<br></code></pre></td></tr></table></figure></li>
 </ul>
 <p>系统路径</p>
 <ul>
 <li><p>SLE</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift"><span class="hljs-operator">/</span><span class="hljs-type">System</span><span class="hljs-operator">/</span><span class="hljs-type">Library</span><span class="hljs-operator">/</span><span class="hljs-type">Extensions</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">/System/Library/Extensions<br></code></pre></td></tr></table></figure>
 </li>
 <li><p>LE</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift"><span class="hljs-operator">/</span><span class="hljs-type">Library</span><span class="hljs-operator">/</span><span class="hljs-type">Extensions</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">/Library/Extensions<br></code></pre></td></tr></table></figure>
 </li>
 <li><p>重建缓存</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs swift">sudo kextcache <span class="hljs-operator">-</span>i <span class="hljs-operator">/</span><br>sudo kextcache <span class="hljs-operator">-</span>u <span class="hljs-operator">/</span><br>sudo kextcache <span class="hljs-operator">-</span>system<span class="hljs-operator">-</span>caches<br></code></pre></td></tr></table></figure></li>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs txt">sudo kextcache -i /<br>sudo kextcache -u /<br>sudo kextcache -system-caches<br></code></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="Boot-Args"><a href="#Boot-Args" class="headerlink" title="Boot-Args"></a>Boot-Args</h3><pre><code class="hljs">agdpmod=vit9696 HDMI 开机黑屏
-igfxonln=1 HDMI 唤醒黑屏
-agdpmod=pikera Navi显卡使用（不加引导完成之后可能黑屏）
--wegnoegpu 软屏蔽独立显卡不会断电
-keepsyms=1 可以打印更加详细的KP
-debug=0x100 发生panic时不重启
-</code></pre>
+<h3 id="Boot-Args"><a href="#Boot-Args" class="headerlink" title="Boot-Args"></a>Boot-Args</h3>   <figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs txt">agdpmod=vit9696 HDMI 开机黑屏<br>igfxonln=1 HDMI 唤醒黑屏<br>agdpmod=pikera Navi显卡使用（不加引导完成之后可能黑屏）<br>-wegnoegpu 软屏蔽独立显卡不会断电<br>keepsyms=1 可以打印更加详细的KP<br>debug=0x100 发生panic时不重启<br></code></pre></td></tr></table></figure>
+
 <h3 id="不识别SATA盘"><a href="#不识别SATA盘" class="headerlink" title="不识别SATA盘"></a><a href="#%E4%B8%8D%E8%AF%86%E5%88%ABSATA%E7%9B%98" title="不识别SATA盘"></a><a href="#%E4%B8%8D%E8%AF%86%E5%88%ABSATA%E7%9B%98" title="不识别SATA盘"></a>不识别SATA盘</h3><ul>
 <li><p>BigSur不识别添加 CtlnaAHCIPort 驱动（如果是OC 同时请在config.plist里面的Kext-add下面添加该驱动列表）</p>
 </li>
@@ -342,14 +339,17 @@ debug=0x100 发生panic时不重启
 </li>
 </ul>
 <h3 id="OC选项"><a href="#OC选项" class="headerlink" title="OC选项"></a><a href="#OC%E9%80%89%E9%A1%B9" title="OC选项"></a><a href="#OC%E9%80%89%E9%A1%B9" title="OC选项"></a>OC选项</h3><p>查看当前OC版本 终端输入</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift">nvram 4D1FDA02<span class="hljs-operator">-</span>38C7<span class="hljs-operator">-</span>4A6A<span class="hljs-operator">-</span>9CC6<span class="hljs-operator">-</span>4BCCA8B30102:opencore<span class="hljs-operator">-</span>version<br></code></pre></td></tr></table></figure>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version<br></code></pre></td></tr></table></figure>
 <h3 id="设置中文"><a href="#设置中文" class="headerlink" title="设置中文"></a>设置中文</h3><ul>
-<li>Config–NVRAM–Add在7C436110-AB2A-4BBB-A880-FE41995C9F82下<br><code>boot-args                   String     -v  //-v是跑代码，在没装好稳定的黑果前我建议加上，方便定位错误，弄完后再删除 -v</code><br><code>csr-active-config           Data       &lt;e7030000&gt; //关闭 SIP 保护</code><br><code>prev-lang:kbd               Data       &lt;7a682d48616e733a323532&gt; //这是中文</code></li>
-</ul>
-<h3 id="让Win不使用Mac的SMBIOS"><a href="#让Win不使用Mac的SMBIOS" class="headerlink" title="让Win不使用Mac的SMBIOS"></a>让Win不使用Mac的SMBIOS</h3><ul>
-<li>CustomSMBIOSGuid 改成 true （其实是打勾或者选Yes）</li>
-<li>UpdateSMBIOSMode 填写 Custom</li>
-<li>SoiifVendor 改成 false 其实是取消打勾或者选No）</li>
+<li><p>Config–NVRAM–Add在7C436110-AB2A-4BBB-A880-FE41995C9F82下</p>
+<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs txt">boot-args                   String     -v  //-v是跑代码，在没装好稳定的黑果前我建议加上，方便定位错误，弄完后再删除 -v<br>csr-active-config           Data       &lt;e7030000&gt; //关闭 SIP 保护<br>prev-lang:kbd               Data       &lt;7a682d48616e733a323532&gt; //这是中文<br></code></pre></td></tr></table></figure>
+<h3 id="让Win不使用Mac的SMBIOS"><a href="#让Win不使用Mac的SMBIOS" class="headerlink" title="让Win不使用Mac的SMBIOS"></a>让Win不使用Mac的SMBIOS</h3></li>
+<li><p>CustomSMBIOSGuid 改成 true （其实是打勾或者选Yes）</p>
+</li>
+<li><p>UpdateSMBIOSMode 填写 Custom</p>
+</li>
+<li><p>SoiifVendor 改成 false 其实是取消打勾或者选No）</p>
+</li>
 </ul>
 <h3 id="打开保险箱"><a href="#打开保险箱" class="headerlink" title="打开保险箱"></a>打开保险箱</h3><ul>
 <li>AppleImageConversion 改成 true （其实是打勾或者选Yes）</li>
@@ -364,12 +364,12 @@ debug=0x100 发生panic时不重启
 </ul>
 <p>方法二</p>
 <ul>
-<li>Kernel-Force-Item 1<br>BundlePath 填<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift"><span class="hljs-type">System</span><span class="hljs-operator">/</span><span class="hljs-type">Library</span><span class="hljs-operator">/</span><span class="hljs-type">Extensions</span><span class="hljs-operator">/</span><span class="hljs-type">IO80211Family</span>.kext<br></code></pre></td></tr></table></figure>
-Enabled 改成 true （其实是打勾或者选Yes）<br>ExecutablePath 填<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift"><span class="hljs-type">Contents</span><span class="hljs-operator">/</span><span class="hljs-type">MacOS</span><span class="hljs-operator">/</span><span class="hljs-type">IO80211Family</span><br></code></pre></td></tr></table></figure>
-MaxKernel 19.99.99<br>MinKernel 为空<br>Identifier 填<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift">com.apple.iokit.<span class="hljs-type">IO80211Family</span><br></code></pre></td></tr></table></figure></li>
+<li>Kernel-Force-Item 1<br>BundlePath 填<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">System/Library/Extensions/IO80211Family.kext<br></code></pre></td></tr></table></figure>
+Enabled 改成 true （其实是打勾或者选Yes）<br>ExecutablePath 填<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">Contents/MacOS/IO80211Family<br></code></pre></td></tr></table></figure>
+MaxKernel 19.99.99<br>MinKernel 为空<br>Identifier 填<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">com.apple.iokit.IO80211Family<br></code></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="核显改为4095MB"><a href="#核显改为4095MB" class="headerlink" title="核显改为4095MB"></a>核显改为4095MB</h3><ul>
-<li>DeviceProperties-Add<br>PciRoot(0x0)&#x2F;Pci(0x2,0x0)下添加<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs swift">framebuffer<span class="hljs-operator">-</span>unifiedmem data 0000F0FF<br></code></pre></td></tr></table></figure></li>
+<li>DeviceProperties-Add<br>PciRoot(0x0)&#x2F;Pci(0x2,0x0)下添加<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs txt">framebuffer-unifiedmem data 0000F0FF<br></code></pre></td></tr></table></figure></li>
 </ul>
 
               
